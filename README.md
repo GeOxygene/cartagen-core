@@ -21,6 +21,6 @@ This repo hosts [*CartAGen*](https://github.com/IGNF/CartAGen)'s core library as
 <dependency>
     <groupId>com.github.GeOxygene</groupId>
     <artifactId>cartagen-core</artifactId>
-    <version>-SNAPSHOT</version>
+    <version>0.1</version>
 </dependency>
 ```    
