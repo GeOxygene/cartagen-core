@@ -1,12 +1,26 @@
-[![Build Status](https://travis-ci.org/IGNF/CartAGen.svg?branch=master)](https://travis-ci.org/IGNF/CartAGen)
+[![](https://jitpack.io/v/GeOxygene/cartagen-core.svg)](https://jitpack.io/#GeOxygene/cartagen-core)
 
-# CartAGen
-CartAGen is a plugin for GeOxygene dedicated to cartographic generalisation
+# cartagen-core
 
-- See the project [website][3] for more information.
-- See the description of the Project Steering Committee: [PSC.md][1]
-- See the members of the Project Steering Committee: [PSC_members.md][2]
+**CartAGen** is a plugin for GeOxygene dedicated to cartographic generalisation.
 
-[1]: https://github.com/IGNF/CartAGen/blob/master/PSC.md
-[2]: https://github.com/IGNF/CartAGen/blob/master/PSC_members.md
-[3]: https://ignf.github.io/CartAGen/
+This repo hosts [*CartAGen*](https://github.com/IGNF/CartAGen)'s core library as a standalone Maven project, available as an artifact via *Jitpack*.
+
+## Usage
+### 1. Add the JitPack repository to your build file
+```
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+### 2. Add the dependency
+```
+<dependency>
+    <groupId>com.github.GeOxygene</groupId>
+    <artifactId>cartagen-core</artifactId>
+    <version>-SNAPSHOT</version>
+</dependency>
+```    
